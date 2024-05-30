@@ -1,17 +1,3 @@
-## Tableaux d'entiers
-
-1) afficher les valeurs d'un tableau
-2) initialiser un tableau
-3) trouver le minimum d'un tableau
-4) calculer la moyenne d'un tableau
-5) échanger deux cases d'un tableau
-6) compter le nombre de 2
-
-## Chaînes de caractères
-1) renvoyer taille d'une chaîne de caractère
-2) afficher le nb d'occurrences d'un caractère
-3) comparer deux chaînes de caractère, renvoie vrai si égales
-4) fonction qui renvoie vrai si palindrome
 
 ## Exercices sur les tableaux d'entiers
 ### Exercice 1 : initialiser un tableau
