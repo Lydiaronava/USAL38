@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 #define TARIF_NORMAL 20
-#define TARIF_ETU_MOINS26 10// étudiant moins de 26
+#define TARIF_ETU_MOINS26 10 // étudiant moins de 26
 #define TARIF_ETU_PLUS26 19 // étudiant plus de 26
 #define TARIF_MOINS26 15 // non étudiant
 #define TARIF_MOINS15 8
