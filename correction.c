@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 #define TARIF_NORMAL 20
-#define TARIF_ETU_MOINS26 10 // étudiant moins de 26
+#define TARIF_ETU_MOINS26 10// étudiant moins de 26
 #define TARIF_ETU_PLUS26 19 // étudiant plus de 26
 #define TARIF_MOINS26 15 // non étudiant
 #define TARIF_MOINS15 8
@@ -107,6 +107,52 @@ float tarif_musee(int age, int est_etudiant, int jour) {
 }
 
 
+// Exercice 8
+int somme_entiers(int n) {
+	int somme = 0;
+
+	for (int i=1; i <= n; i++) {
+		somme += i;
+	}
+
+	return somme;
+}
+
+
+// Exercice 9
+void dessiner_etoiles() {
+	for (int i=1; i <= 10; i++) {
+		for (int j=0; j < i; j++) {
+			printf("*");
+		}
+		printf("\n");
+	}
+}
+
+
+// Exercice 10
+void decompose_billet_pieces(int valeur) {
+	int tmp = valeur;
+	int nb_5 = 0, nb_2 = 0, nb_1 = 0;
+
+	while (tmp >= 5) {
+		nb_5 = tmp / 5;
+		tmp = tmp % 5;
+	}
+
+	while (tmp >= 2) {
+		nb_2 = tmp / 2;
+		tmp = tmp % 2;
+	}
+
+	while (tmp >= 1) {
+		nb_1 = tmp / 1;
+		tmp = tmp % 1;
+	}
+
+	printf("%d=%d*5 euros + %d*2 euros + %d*1 euro\n", valeur, nb_5, nb_2, nb_1);
+}
+
 int main() {
 	// tests addition
 	assert(addition(1, 3) == 4);
@@ -147,9 +193,25 @@ int main() {
 	assert(tarif_musee(25, 0, 6) == TARIF_MOINS26-2);
 	assert(tarif_musee(5, 0, 2) == TARIF_MOINS15);
 
+	// tests somme_entiers
+	assert(somme_entiers(3) == 6);
+	assert(somme_entiers(5) == 15);
+	assert(somme_entiers(10) == 55);
 
 
+	// tests dessiner_etoiles
+	dessiner_etoiles();
 
-
-
+	// tests decompose_billet_piece
+	decompose_billet_pieces(54);
 }
+
+
+
+
+
+
+
+
+
+
