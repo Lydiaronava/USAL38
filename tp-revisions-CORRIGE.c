@@ -145,10 +145,7 @@ void decompose_billet_pieces(int valeur) {
 		tmp = tmp % 2;
 	}
 
-	while (tmp >= 1) {
-		nb_1 = tmp / 1;
-		tmp = tmp % 1;
-	}
+	nb_1 = tmp;
 
 	printf("%d=%d*5 euros + %d*2 euros + %d*1 euro\n", valeur, nb_5, nb_2, nb_1);
 }
