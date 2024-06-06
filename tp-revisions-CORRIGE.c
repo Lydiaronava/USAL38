@@ -46,9 +46,9 @@ int signe_somme(int a, int b) {
 int est_dans_intervalle(int nombre, int i1, int i2) {
 	if (nombre > i1 && nombre < i2) {
 		return 1;
-	} else {
-		return 0;
-	}
+	} 
+	return 0;
+
 }
 
 
@@ -79,7 +79,7 @@ int signe_somme_v2(int a, int b) {
 
 
 // Exercice 7
-float tarif_musee(int age, int est_etudiant, int jour) {
+int tarif_musee(int age, int est_etudiant, int jour) {
 	if (jour == 4) return TARIF_MOINS15;
 
 	float tarif;
@@ -201,6 +201,7 @@ int main() {
 
 	// tests decompose_billet_piece
 	decompose_billet_pieces(54);
+	decompose_billet_pieces(3);
 }
 
 
