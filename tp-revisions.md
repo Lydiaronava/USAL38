@@ -89,6 +89,8 @@ Par exemple si `n=5`, la fonction doit renvoyer $15$, c'est-à-dire ($1+2+3+4+5$
 > ```
 > 
 
+
+## Exercices sur les divisions et les restes de divisions
 ### Exercice 10 : décomposer une somme 
 Écrivez une fonction `decompose_pieces_billet` qui prend un entier et qui affiche le nombre de billets de 5€, et de pièces de 2€ et 1€, qu'il faut pour faire cette somme.
 
