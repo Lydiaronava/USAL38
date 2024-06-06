@@ -135,16 +135,15 @@ void decompose_billet_pieces(int valeur) {
 	int tmp = valeur;
 	int nb_5 = 0, nb_2 = 0, nb_1 = 0;
 
-	while (tmp >= 5) {
-		nb_5 = tmp / 5;
-		tmp = tmp % 5;
-	}
+	// compter le nombre de billets de 5 euros
+	nb_5 = tmp / 5;
+	tmp = tmp % 5;
 
-	while (tmp >= 2) {
-		nb_2 = tmp / 2;
-		tmp = tmp % 2;
-	}
+	// compter le nombre de pièces de 2 euros
+	nb_2 = tmp / 2;
+	tmp = tmp % 2;
 
+	// le reste est forcément des pièces de 1 euros
 	nb_1 = tmp;
 
 	printf("%d=%d*5 euros + %d*2 euros + %d*1 euro\n", valeur, nb_5, nb_2, nb_1);
