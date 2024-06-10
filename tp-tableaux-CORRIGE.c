@@ -78,9 +78,9 @@ int compte_valeur(int tableau[], int taille, int valeur) {
 void echange_cases(int tableau[], int taille, int i, int j) {
 	if (i > taille || j > taille || taille < 1) return;
 
-	int tmp = taille[i];
-	taille[i] = taille[j];
-	taille[j] = tmp;
+	int tmp = tableau[i];
+	tableau[i] = tableau[j];
+	tableau[j] = tmp;
 }
 
 
