@@ -23,3 +23,11 @@ remplacer_caractere(chaine, 'i', 'a'); // Renvoie "Je suas une chaane"
 
 ### Exercice 4 : compter les mots
 Écrivez la fonction `int compte_mots(char* chaine)` qui renvoie le nombre de mots qui constituent la chaîne donnée en argument. On considère ici que l'unique séparateur est l'espace, et qu'il peut y avoir néanmoins plusieurs espaces entre deux mots. Il peut aussi y avoir un ou plusieurs espace en début et/ou fin de chaîne.
+
+
+### Exercice 5 : Comparer deux chaînes 
+Écrivez la fonction `int egales(char *chaine1, char *chaine2)`
+qui renvoie `1` si les deux chaînes passées en arguments sont égales,
+`0` sinon.
+
+
