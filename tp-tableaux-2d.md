@@ -1,6 +1,6 @@
 ## Exercice 1
 ### Question 1
-Écrivez la fonction `afficher_tableau_2d(int tab[3][3], int nb_lignes, int nb_colonnes)` qui affiche sur contenu d'un tableau à deux dimensions.
+Écrivez la fonction `void afficher_tableau_2d(int tab[3][3], int nb_lignes, int nb_colonnes)` qui affiche sur contenu d'un tableau à deux dimensions.
 
 Par exemple :
 ```c
@@ -32,7 +32,7 @@ réécrire pour que ça affiche
 3 6 9
 ```
 ## Exercice 2
-Écrivez la fonction `init_tableau_2d(int tab[3][3], int nb_lignes, int nb_colonnes)` qui initialise à `0` toutes les cases du tableau `tab` qui est de deux dimensions.
+Écrivez la fonction `void init_tableau_2d(int tab[3][3], int nb_lignes, int nb_colonnes)` qui initialise à `0` toutes les cases du tableau `tab` qui est de deux dimensions.
 
 ## Exercice 3
 Écrivez la fonction `void additionner_matrices(int tab1[3][3], int tab2[3][3], int nb_lignes, int nb_colonnes)` où `tab1` et `tab2` sont deux tableaux 2d de la même taille. On veut mettre dans `tab1` sa somme avec `tab2`
