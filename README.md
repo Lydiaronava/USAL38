@@ -9,6 +9,7 @@ https://www.youtube.com/watch?v=SS19Q-_saCc
 - Exercices sur les chaînes de caractères : [tp-chaines-caracteres.md](tp-chaines-caracteres.md)
 	- corrigé : [tp-chaines-caracteres-CORRIGE.c](tp-chaines-caracteres-CORRIGE.c)
 - Exercices Dirigés sur les pointeurs : [td-pointeurs.md](td-pointeurs.md)
-- Exercices sur machine sur les pointeurs : [tp-pointeurs](tp-pointeurs)
+- Exercices sur machine sur les pointeurs : [tp-pointeurs](tp-pointeurs.md)
 	- corrigé : [tp-pointeurs-CORRIGE.c](tp-pointeurs-CORRIGE.c)
-
+- Exercices sur les tableaux à 2 dimensions : [tp-tableaux-2d.md](tp-tableaux-2d.md)
+	- corrigé : à venir...
