@@ -94,7 +94,7 @@ int main() {
 
 ## Exercice 5
 ### Question 1
-Écrivez la fonction `int somme_diagonale(int tab[3][3])`  qui renvoie la somme de toutes les valeurs dans la diagonale (celle qui part d'en haut à gauche vers en bas à droite).
+Écrivez la fonction `int somme_diagonale(int tab[3][3], int nb_lignes, int nb_colonnes)`  qui renvoie la somme de toutes les valeurs dans la diagonale (celle qui part d'en haut à gauche vers en bas à droite).
 
 Par exemple
 ```C
@@ -115,7 +115,7 @@ int main() {
 Même question mais pour la diagonale qui part d'en haut à droite vers en bas à gauche.
 
 ## Exercice 6
-Écrivez la fonction `int matrices_egales(int tab1[3][3], int tab2[3][3])` qui doit renvoyer `1` si elles sont égales, `0` sinon.
+Écrivez la fonction `int matrices_egales(int tab1[3][3], int tab2[3][3], int nb_lignes, int nb_colonnes)` qui doit renvoyer `1` si elles sont égales, `0` sinon.
 
 ```C
 int main() { 
