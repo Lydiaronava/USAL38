@@ -1,6 +1,7 @@
 ## Cours PHP
 
 ### Cours 1 : les bases du PHP
+Support de cours : [1-bases-PHP/php-syntaxe.md](cours/1-bases-PHP/php-syntaxe.md)
 
 #### TP1
 - **Sujet** : [tp-php-bases.md](TP/TP1/sujet/tp-php-bases.md)
