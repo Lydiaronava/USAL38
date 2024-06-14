@@ -2,28 +2,28 @@
 ## Mise à niveau en programmation
 ### Les conditions et les fonctions
 
-- Exercices sur les fonctions et les conditions : [tp-revisions.md](tp-revisions.md)
-	- corrigé : [tp-revisions-CORRIGE.c](tp-revisions-CORRIGE.c)
+- Exercices sur les fonctions et les conditions : [tp-revisions.md](TP-programmation/TP1/tp-revisions.md)
+	- corrigé : [TP-programmation/TP1/tp-revisions-CORRIGE.c](TP-programmation/TP1/tp-revisions-CORRIGE.c)
 
 ### Les tableaux à 1 dimension
-- Exercices sur les tableaux : [tp-tableaux.md](tp-tableaux.md)
-	- corrigé : [tp-tableaux-CORRIGE.c](tp-tableaux-CORRIGE.c)
+- Exercices sur les tableaux : [tp-tableaux.md](TP-programmation/TP2/tp-tableaux.md)
+	- corrigé : [TP-programmation/TP2/tp-tableaux-CORRIGE.c](TP-programmation/TP2/tp-tableaux-CORRIGE.c)
 
 ### Les chaînes de caractères
-- Exercices sur les chaînes de caractères : [tp-chaines-caracteres.md](tp-chaines-caracteres.md)
-	- corrigé : [tp-chaines-caracteres-CORRIGE.c](tp-chaines-caracteres-CORRIGE.c)
+- Exercices sur les chaînes de caractères : [tp-chaines-caracteres.md](TP-programmation/TP3/tp-chaines-caracteres.md)
+	- corrigé : [TP-programmation/TP3/tp-chaines-caracteres-CORRIGE.c](TP-programmation/TP3/tp-chaines-caracteres-CORRIGE.c)
 
 ### Les pointeurs
-- Exercices Dirigés sur les pointeurs : [td-pointeurs.md](td-pointeurs.md)
-- Exercices sur machine sur les pointeurs : [tp-pointeurs](tp-pointeurs.md)
-	- corrigé : [tp-pointeurs-CORRIGE.c](tp-pointeurs-CORRIGE.c)
+- Exercices Dirigés sur les pointeurs : [td-pointeurs.md](TP-programmation/TD-pointeurs/td-pointeurs.md)
+- Exercices sur machine sur les pointeurs : [tp-pointeurs](TP-programmation/TP4/tp-pointeurs.md)
+	- corrigé : [TP-programmation/TP4/tp-pointeurs-CORRIGE.c](TP-programmation/TP4/tp-pointeurs-CORRIGE.c)
 
 ### Les tableaux à 2 dimensions
-- Exercices sur les tableaux à 2 dimensions : [tp-tableaux-2d.md](tp-tableaux-2d.md)
-	- corrigé : [tp-tableaux-2d-CORRIGE.c](tp-tableaux-2d-CORRIGE.c)
+- Exercices sur les tableaux à 2 dimensions : [tp-tableaux-2d.md](TP-programmation/TP5/tp-tableaux-2d.md)
+	- corrigé : [TP-programmation/TP5/tp-tableaux-2d-CORRIGE.c](TP-programmation/TP5/tp-tableaux-2d-CORRIGE.c)
 
 ### Pour aller plus loin...
-- Exercices bonus : [tp-bonus.md](tp-bonus.md)
+- Exercices bonus : [tp-bonus.md](TP-programmation/exo-bonus/tp-bonus.md)
 
 ## Les fiches
 ### Markdown
