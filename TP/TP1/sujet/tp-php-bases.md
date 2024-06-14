@@ -138,7 +138,6 @@ Au début du TP, on a modifié un fichier qui s'appelait `php.ini`.
 ### Question 1
 Retrouvez le chemin vers ce fichier et donnez-le en argument à la fonction `parse_ini_file` et affichez ce qu'elle retourne avec `print_r`.
 
-### Question 2
 Écrivez un script qui affiche si oui ou non `display_errors` est activé.
 
 ## Exercice 10 : initiation aux prochains cours...

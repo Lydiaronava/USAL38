@@ -246,13 +246,13 @@ Toujours la même utilisation qu'en C :
 Similaire à la boucle `while` sauf que la condition est testée à la fin d'une itération (ie. à la fin d'un tour de boucle).
 
 ```PHP
-`<?php  
+<?php  
 	$i = 0;   
 	do {   
 		echo $i;   
 		$i++;
 	} while ($i < 10);   
-?>`
+?>
 ```
 
 On entre donc obligatoirement au moins une fois dans la boucle, alors qu'avec le `while`, si la condition est fausse dès le début, on n'entre jamais à l'intérieur.

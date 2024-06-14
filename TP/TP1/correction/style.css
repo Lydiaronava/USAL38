@@ -1,0 +1,54 @@
+/*Couleur générée avec https://coolors.co/*/
+
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  font-size: 2em;
+  font-variant: all-small-caps;
+  color: #561643;
+  text-align: center;
+  border: 2px solid #561643;
+  background-color: #C4A69D;
+
+}
+
+h2 {
+  font-size: 1.25em;
+  font-weight: bold; /* assuming h2-l:true means font-weight:bold */
+  color: #6C0E23;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 1.125em;
+  color: #C42021;
+}
+
+h4 {
+  font-size: 1em;
+  color: grey;
+}
+
+h5 {
+  font-size: 0.9em;
+  font-variant: normal;
+}
+
+h6 {
+  font-size: 0.8em;
+  font-variant: normal;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/*pre code {
+  border: 1px solid #999;
+  display: block;
+  padding: 2px;
+}*/
+
