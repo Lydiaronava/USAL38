@@ -9,7 +9,7 @@ Support de cours : [1-bases-PHP/php-syntaxe.md](cours/1-bases-PHP/php-syntaxe.md
 
 #### TP2
 - **Sujet** : [tp-formulaire.md](TP/TP2/sujet/tp-formulaire.md)
-- **Correction** : [formulaire.php](TP/TP1/correction/formulaire.md)
+- **Correction** : [formulaire.php](TP/TP1/correction/formulaire.php)
 
 ### Cours 2 : à venir...
 
