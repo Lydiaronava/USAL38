@@ -1,3 +1,17 @@
+## Cours PHP
+
+### Cours 1 : les bases du PHP
+
+#### TP1
+- **Sujet** : [tp-php-bases.md](TP/TP1/sujet/tp-php-bases.md)
+- **Correction** : [tp1-correction-code.php](TP/TP1/correction/tp1-correction-code.php)
+
+#### TP2
+- **Sujet** : [tp-formulaire.md](TP/TP2/sujet/tp-formulaire.md)
+- **Correction** : [formulaire.php](TP/TP1/correction/formulaire.md)
+
+### Cours 2 : à venir...
+
 
 ## Mise à niveau en programmation
 ### Les conditions et les fonctions
